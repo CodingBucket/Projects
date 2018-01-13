@@ -1,0 +1,24 @@
+------------------
+ # ng directives
+------------------
+	ng-app
+	ng-init
+	ng-if
+	ng-bind
+	ng-model
+	ng-controller
+	ng-click
+	ng-change
+	ng-show
+	ng-hide
+	ng-repeat
+
+------------------------
+ # ng-repeeat variables
+------------------------
+	$index
+	$first
+	$middel
+	$last
+	$even
+	$odd

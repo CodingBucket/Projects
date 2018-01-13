@@ -1,0 +1,37 @@
+// Event app guide
+
+# At first we will make our backend
+# CMD: npm imstal express-generator -g                                 // Install express globally
+# CMD: express --ejs events                                            // Install bare bone express application
+# CMD: npm install                                                     // Install all dependencies form package.json file
+# CMD: npm start                                                       // To start the node server     
+# Goto http://localhost:3000/ in browse to see the express app
+
+# Go to events/routes folder and create api.js                         // Where we will define route middelwire
+# Include api.js file in the app.js and reference
+# Create models folder in the root
+# Create file models.js in models folder
+# Decleare event model and schema in models.js
+# Decleare mongodb connection in app.js file
+# Go to api.js file
+# In api.js file we create two midelwire function one for get event another for post event
+# CMD: npm install                                                    // Install all dependencies form package.json file
+# CMD: npm install mongoose --save                                    // Install mongoose package for MongoDB
+# CMD: npm start                                                      // Start the Node server
+# Make a post request localhost:3000/api/events in postman with {"venue": "v22","title": "t22","date": "2016-05-21"} data
+# Make a get request localhost:3000/api/events in postman
+
+# Now we will make our frontend section
+# Goto events/public/js folder and create events.js file
+# Create index.html, main.html and contactus.html in the public folder
+# Goto events.js file
+# Declare ngRoute and ngResource dependenci in the evnets.js
+# Then angular routing configure in the events.js
+# Create angular mainController in the events.js
+# Create angular factory resourece to fetch the data form the mongoDB
+
+# Now we are going to implement signup and login
+# CMD: npm install passport --save                                      // Authentication package
+# CMD: npm install passport-local --save           
+# CMD: npm install express-session --save
+# CMD: npm install bcrypt-nodejs --save                                 // To make hash password

@@ -1,0 +1,30 @@
+** Install node.js 
+#. CMD: mkdir gulp-first
+#. CMD: cd gulp-first
+#. CMD: mkdir css image js
+#. CMD: touch index.html js/main.js css/style.css
+
+** Create gulpfile.js file
+#. CMD: node -v (Check node version)
+#. CMD: npm -v (Check npn version)
+#. CMD: npm install -g gulp (Install gulp globally)
+#. CMD: npm install --save-dev gulp (Install gulp in project)
+
+** Write default task in gulpfile.js
+#. CMD: gulp (See the default in the  cmd)
+#. CMD: npm install --save-dev gulp-uglify
+#. CMD: npm install --save-dev gulp-ruby-sass
+#. CMD: npm install --save-dev gulp-plumber
+** Need to install live reload extention for the browser
+#. CMD: npm install --save-dev gulp-livereload
+#. CMD: npm install --save-dev gulp-imagemin
+#. CMD: npm install --save-dev gulp-autoprefixer
+#. CMD: npm install --save-dev browser-sync
+#. CMD: npm install --save-dev gulp-htmlmin
+#. CMD: npm install --save-dev gulp-stylus
+#. CMD: npm install --save-dev gulp-concat
+#. CMD: npm install --save-dev gulp-changed
+#. CMD: npm install --save-dev gulp-iconfont
+#. CMD: npm install --save-dev gulp-autoprefixer 
+#. CMD: npm install --save-dev del
+#. CMD: npm install --save-dev gulp-rename

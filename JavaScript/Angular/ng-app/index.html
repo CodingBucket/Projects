@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+	<title></title>
+	<script src="js/angular.min.js" ></script>
+	<script src="js/app.js" ></script>
+</head>
+<body ng-init="result = 10">
+
+	<div ng-controller="MainCtrl">
+		<h1>hellow anguler</h1>
+		<p ng-if="false">hellow</p>
+		<p ng-bind="result"></p>
+		<p>{{ result }}</p>
+
+		<p>Time</p>
+		<p ng-bind="timeString"></p>
+
+		<button ng-click="updateTime()">Update Time</button>
+
+		</br>Enter your name <input type="text" ng-change="textChange()" ng-model="name"></br>
+		Your name is <p ng-bind="name"></p>
+
+		<p>Checkbox <input type="checkbox" ng-model="bool"></p>
+		<p>Check value: {{bool}} </p>
+
+		<input type="checkbox" ng-model="check">
+		<!--<span ng-if="check">Check box is checked</span> -->
+		<span ng-show="check">Check box is checked</span>
+
+		<span ng-hide="check">Check box is unchecked</span>
+
+		<div ng-repeat="obj in myList">
+			<p>Name: {{ obj.name }}</p>
+			<p>Name: {{ obj.age }}</p>
+			<hr>
+		</div>
+
+
+	</div>
+	
+</body>
+</html>

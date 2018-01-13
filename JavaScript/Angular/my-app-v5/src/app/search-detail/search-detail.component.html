@@ -1,0 +1,10 @@
+<!-- <search class='text-center search-inline'></search> -->
+<p *ngIf='query'>
+  Searched for <b>{{ query }}</b>
+</p>
+
+<div *ngFor='let abc of videoList'>
+    <h1><a href='videos/{{ abc.slug }}' >{{ abc.name }}</a></h1>
+    <hr/>
+
+</div>

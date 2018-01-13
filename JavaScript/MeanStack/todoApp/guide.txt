@@ -1,0 +1,15 @@
+# Install NodeJS
+# Install MongoDB 
+# Install Express     [ CMD: npm install express ]
+# Install Mongojs     [ CMD: npm install mongojs ]
+# Install Body-Parser [ CMD: npm install body-parser ]
+
+# MongoDB Commands
+# CMD: mongod --storageEngine=mmapv1 --dbpath /data
+# CMD: mongo
+# CMD: show dbs
+# CMD: use newdbname
+# CMD: db.contactlist.insert({name: 'Hasan', email: 'hasankhan@gmail.com', phone:'222'})
+# CMD: db.contactlist.find()
+# CMD: db.contactlist.find().pretty()
+# CMD: db.contactlist.remove({name: 'Hasan'})

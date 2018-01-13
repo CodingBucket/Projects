@@ -1,0 +1,10 @@
+{
+  "name": "gulp-first",
+  "version": "1.0.0",
+  "author": "Hasan",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

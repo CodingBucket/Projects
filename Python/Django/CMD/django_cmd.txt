@@ -1,0 +1,76 @@
+### Python Commands ###
+
+# Check Python version
+
+	CMD: python --version
+
+# Check easy_insatall version
+
+	CMD: easy_install --version
+
+# Install mysql python package
+
+    CMD: pip install mysql-python
+    CMD: pip install mysqlclient
+
+# Install virtualenv via pip
+
+    CMD: pip install virtualenv
+
+# Create a virtual environment for a project
+
+    CMD: cd my_project_folder
+    CMD: virtualenv venv
+    CMD: source venv/bin/activate
+
+# Install wheel tool
+
+    CMD: pip install -U pip setuptools wheel
+
+--------------------------------------------------------------------------------------------------------------------
+### Django Commands ###
+
+
+# Install Django 
+
+	CMD: easy_install django==1.9
+
+# Check Django version
+
+	CMD: django-admin --version
+
+# Django project create
+
+	CMD: django-admin startproject project_name
+
+# Run Django project
+	
+	CMD: cd website
+	CMD: python manage.py runserver
+
+# Create a new app
+
+	CMD: python manage.py startapp new_app_name
+
+# To run migration
+
+    CMD: python manage.py migrate
+
+# App model migration 
+
+	CMD: python manage.py makemigrations app_name
+	CMD: python manage.py migrate
+
+# To show the migration script
+
+    CMD: python manage.py sqlmigrate music 0001
+
+# Django database interactiove console
+
+    CMD: python manage.py shell
+
+# Django admin user create
+
+    CMD: python manage.py createsuperuser
+    CMD: winpty python manage.py createsuperuser [For windows]
+

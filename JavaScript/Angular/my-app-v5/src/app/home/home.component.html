@@ -1,0 +1,16 @@
+<div class='row'>
+    <div class='col-sm-12'>
+    <carousel class='text-center'>
+      <slide *ngFor='let imageObj of homeImageList'>
+        <a class='' href='{{ imageObj.name }}' (click)='preventNormal($event, imageObj)'>
+            <img class='img-main-carousel'  [src]='imageObj.image' alt="First slide">
+        </a>
+        <div class="carousel-caption">
+          <h3>{{ imageObj.title }}</h3>
+          
+          <p><a class='btn btn-default' href='{{ imageObj.link }}'>{{ imageObj.name }}</a></p>
+        </div>
+      </slide>
+    </carousel>
+</div>
+</div>

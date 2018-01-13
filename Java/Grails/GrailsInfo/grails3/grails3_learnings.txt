@@ -1,0 +1,21 @@
+# Grails3 project setup and run.
+
+# Controller create and reponse send.
+
+# View create and data set to view page.
+
+# Basic use of SiteMash templating language in groovy server page.
+
+# Mysql db conneection.
+
+# H2 db connection and dbconsole.
+
+# Domain/Model create and data fetch using domain class.
+
+# Dynamic scaffolding.
+
+# Static scaffolding.
+
+# Domain/Model validation
+
+# Grails domain constraints

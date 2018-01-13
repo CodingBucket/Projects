@@ -1,0 +1,30 @@
+
+1.  Install Node.js v6.11.2
+
+2.  $ node -v [Check node version]
+
+3.  $ npm -v [Check npm version]  
+
+4.  $ npm install -g @angular/cli [Install Angular CLI via npm]  
+
+5.  Create new folder
+
+6.  $ ng new app-name [Crate angular app]
+
+7.  $ ng serve [Start angular application]
+
+8.  Go to localhost://4200
+
+9.  $ ng generate component component-name [Create new component]
+
+10. $ npm install ngx-bootstrap --save [Install angular bootstrap]
+
+11. $ ng g c component-name --flat -is -it [Create component without folder with inline style and inline template]
+
+12. $ ng g cl model-name [Create angular model]
+
+13. $ ng destroy component component-name [Create angular model]
+
+14. $ ng g directive directive-name [Create new directive]
+
+15. Augury chrome extention for angular app debug.

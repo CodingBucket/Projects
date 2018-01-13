@@ -1,0 +1,17 @@
+<p>Data Binding Component</p>
+
+<h1>String Interpolation</h1>
+{{ stringInterpolation }}
+
+<h1>Property Binding</h1>
+<input type="text" value="{{ stringInterpolation }}">
+<input type="text" [value]="stringInterpolation">
+<p [ngClass]="{redBorder: onTest()}">Red border goes here using ngClass</p>
+<p [ngStyle]="{color: 'green'}">Example of ngStyle</p>
+<app-property-binding [result]="10"></app-property-binding>
+
+<h1>Event Binding</h1>
+<app-event-binding (clickCustomEvent)="eventResponse($event)"></app-event-binding>   
+
+<h1>Two way data binding</h1>
+<app-two-way-binding></app-two-way-binding>

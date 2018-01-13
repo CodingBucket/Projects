@@ -1,0 +1,125 @@
+*** Grails Commands ***
+	
+-------------------------------	
+ # For details information
+-------------------------------
+	
+	1. http://docs.grails.org/latest/guide/gettingStarted.html [Grails application create]
+	2. http://grails.asia/grails-3-tutorial-setup-your-windows-development-environment/ [Installation in windows]
+
+------------------------------------
+ # Grails Project create in windows
+------------------------------------
+
+    1.  Install java JDK
+	2.  Download grails
+	3.  Set JAVA_HOME environment variable
+	4.  Set GRAILS_HOME environment variable
+	5.  Set grails in path variable
+	6.  $ java -version
+	7.  $ grails -version
+	8.  $ grails create-app newProject
+	9.  $ cd newProject
+	10. $ grails run-app
+	11. Goto http://localhost:8080/newProject
+
+------------------------------------		
+ # Grails version show
+------------------------------------	
+
+	$ grails -version
+
+
+------------------------------------		
+ # Grails help
+------------------------------------
+
+	$grails help
+
+------------------------------------		
+ # Start project
+------------------------------------
+	
+	$ grails run-app
+
+	$ grails run-app -port=8090
+
+	* Run application in a specific port
+
+------------------------------------		
+ # Stop project
+------------------------------------
+	
+	$ grails stop-app
+
+------------------------------------	
+ #  Controller class create
+------------------------------------
+	
+	$ grails create-controller book
+
+	$ grails create-controller com.package.Book
+
+------------------------------------	
+ # Domain model class create
+------------------------------------
+	
+	$ grails create-domain-class book
+
+------------------------------------	
+ # GSP view generation for domain class
+------------------------------------
+	
+	$ grails generate-views org.bookstore.Book
+
+	* org.bookstore is the package name
+	* Book is domain class name
+
+-------------------------------------
+ # Static scaffolding 
+-------------------------------------
+
+	$ grails generate-all Book
+
+	$ grails generate-all helloworld.Book 
+
+	* This is called static scaffolding.
+	* First need to create the domain class.
+	* hellowbook is the package name and Book is the model name.
+
+-------------------------------------
+ #  Dynamic scaffolding 
+-------------------------------------	
+
+   static scaffold = Book    * In grails 3 & Book is domain class
+
+   static scaffold = true    * In grails 2
+		
+-----------------------------------------
+ # Spring sequrity plugin install
+-----------------------------------------
+	
+	$ grails install-plugin spring-security-core
+	
+-----------------------------------------
+ # Service create
+-----------------------------------------
+
+	$ grails create-service hellowworld.simple
+
+-----------------------------------------
+ # To set grails project intellij
+-----------------------------------------
+
+	$ grails integrate-with --intellij
+
+-----------------------------------------
+ # Grails WAR file create
+-----------------------------------------
+
+	$ grails war
+
+	* WAR - Web Application Archive
+    
+
+    

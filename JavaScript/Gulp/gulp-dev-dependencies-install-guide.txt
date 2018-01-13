@@ -1,0 +1,16 @@
+** Install node.js 
+#. CMD: mkdir gulp-first
+#. CMD: cd gulp-first
+#. CMD: mkdir css image js
+#. CMD: touch index.html js/main.js css/style.css
+
+** Create gulpfile.js file
+#. CMD: node -v (Check node version)
+#. CMD: npm -v (Check npn version)
+#. CMD: npm install -g gulp (Install gulp globally)
+#. CMD: npm install --save-dev gulp (Install gulp in project)
+
+** Write default task in gulpfile.js
+#. CMD: gulp (See the default in the  cmd)
+#. CMD: npm install --save gulp-install
+#. CMD: gulp install

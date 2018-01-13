@@ -1,0 +1,9 @@
+<h1>
+  {{ title }}
+</h1>
+
+<p *ngFor='let item of videoList'>
+  <!--<a href="videos/{{ item.slug }}" *ngIf='item.status == "1"'>{{ item.name }}</a>
+  -->
+    <a routerLink="/videos/{{ item.slug }}" *ngIf='item.status == "1"'>{{ item.name }}</a>
+  </p>

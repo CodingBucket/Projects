@@ -1,0 +1,17 @@
+[
+    {
+        "name": "item 1", 
+        "slug":"item-1", 
+        "status":"1"
+    },
+    {
+        "name": "item 2", 
+        "slug":"item-2", 
+        "status":"0"
+    },
+    {
+        "name": "item 2", 
+        "slug":"item-3", 
+        "status":"1"
+    }
+]
